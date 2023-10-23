@@ -1,11 +1,11 @@
 "Create Article": {
   "prefix": "article",
   "body": [
-    "\\documentclass[titlepage, 11pt]{article}",
+    "\\documentclass[titlepage, 11pt, a4paper]{article}",
     "",
     "\\usepackage[utf8]{inputenc}",
     "\\usepackage{amsmath}",
-    "\\usepackage[ngerman]{babel}",
+    "\\usepackage{fullpage}",
     "\\usepackage{hyperref}",
     "\\hypersetup{",
     "  colorlinks   = true,",
